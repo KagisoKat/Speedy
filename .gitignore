@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Docker
+*.log
+
+# OS / Editor
+.DS_Store
+.vscode/
+
+# Build outputs
+dist/
+build/
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/*.tfstate*
