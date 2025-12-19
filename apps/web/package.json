@@ -1,0 +1,18 @@
+{
+	"name": "web",
+	"version": "1.0.0",
+	"description": "Speedy Web Frontend",
+	"main": "src/main.jsx",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"react": "^19.2.3",
+		"react-dom": "^19.2.3"
+	}
+}

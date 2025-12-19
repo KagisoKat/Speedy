@@ -1,0 +1,19 @@
+{
+	"name": "speedy",
+	"version": "1.0.0",
+	"description": "Speedy - Salon Booking Platform",
+	"private": true,
+	"workspaces": [
+		"apps/api",
+		"apps/web"
+	],
+	"scripts": {
+		"install:all": "npm install",
+		"dev:api": "npm run dev --workspace=api",
+		"dev:web": "npm run dev --workspace=web",
+		"dev": "concurrently \"npm run dev:api\" \"npm run dev:web\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
